@@ -1,0 +1,50 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the pagination */
+    margin-top: 20px; /* Space above the pagination */
+  }
+  
+  .page-button {
+    margin: 0 5px; /* Space between buttons */
+    padding: 5px 10px; /* Padding for buttons */
+    border: 1px solid #c0e3e5; /* Border color */
+    background-color: #ebebeb; /* Grey background color */
+    color: #322625; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s, color 0.2s; /* Transition effect */
+  }
+  
+  .page-button:hover {
+    background-color: #c0e3e5; /* Change background on hover */
+    color: #322625; /* Keep text color on hover */
+  }
+  
+  .page-button.active {
+    background-color: #322625; /* Active button background - Black */
+    color: white; /* Active button text color - White */
+  }
+  
+  .prev-next-button {
+    margin: 0 10px; /* Space between buttons */
+    padding: 5px 10px; /* Padding for buttons */
+    border: none; /* Remove border */
+    background-color: #c0e3e5; /* Background color for prev/next */
+    color: #322625; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s; /* Transition effect */
+  }
+  
+  .prev-next-button:hover {
+    background-color: #fdc936; /* Darker on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  .prev-next-button:disabled {
+    background-color: #ebebeb; /* Grey background when disabled */
+    color: #322625; /* Text color when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+  }
+  

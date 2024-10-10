@@ -1,0 +1,84 @@
+.filter-container {
+    padding: 20px;
+    background-color: #ebebeb; /* Grey background */
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tab,
+  .active-tab {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c0e3e5; /* Tab background color */
+    color: #322625; /* Tab text color */
+    transition: background-color 0.2s;
+  }
+  
+  .tab:hover {
+    background-color: #fdc936; /* Change background on hover */
+  }
+  
+  .active-tab {
+    background-color: #322625; /* Active tab background */
+    color: white; /* Active tab text color */
+  }
+  
+  .filter-row {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  }
+  
+  .filter-group {
+    margin-right: 20px; /* Space between filter groups */
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .filter-label {
+    font-weight: bold; /* Make labels bold */
+    margin-right: 5px; /* Space between label and input */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #322625; /* Label color */
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .input-field {
+    margin-left: 10px; /* Space between button and input field */
+    padding: 5px;
+    border: 1px solid #c0e3e5; /* Border color for input */
+    border-radius: 5px;
+    
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space before the search input */
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #322625; /* Search button color */
+  }
+  
+  .search-input {
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #c0e3e5; /* Border color for search input */
+    border-radius: 5px;
+  }
